@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+#root {
+  font-family: 'Poppins', sans-serif;
+  
+}
+body{
+  background-color: white;
+  color: black;
+}
+
+.main-container {
+  justify-content: center;
+  place-items: center;
+  text-align: center;
+ 
+ }
+
+.title-container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+
+.container  {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  
+ 
+}
+
+.mini-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  text-align: center;
+  width: 170px;
+  margin: 25px;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+li {
+  list-style: none;
+
+}
+.mini-header {
+  padding-top: 5px;
+  text-align: center;
+  width: 600px;
+  background-color: rgb(219, 225, 135);;
+  border-radius: 0.5rem;
+}
+.drink-container {
+  display: flex;
+  place-content: center;
+  padding-left: 2rem;
+  
+}
+
+.button-newdrink {
+  margin: 20px ;
+  height: 50px;
+  width: 60px;
+  background-color: rgb(92, 122, 10);
+
+}
+
+#wrong {
+  background-color:rgb(219, 93, 93);
+}
+
+#correct {
+  background-color:rgb(191, 116, 191);
+}
+.answer-space {
+  background-color: rgb(219, 225, 135);
+  text-align: center;
+  padding-top: 5px;
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 35px;
+}
+
+.list-choices {
+  padding-top: 10px;
+  text-align: left;
+}
+
+.button-submit {
+  margin-right: 20px;
+  background-color: rgb(92, 122, 10);
+}
+
+.textbox {
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
